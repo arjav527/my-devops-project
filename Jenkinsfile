@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/username/jenkins-docker.git' // Replace 'username' with your GitHub username
+                git branch: 'main', url: 'https://github.com/arjav527/my-devops-project.git'
             }
         }
         stage('Build') {
